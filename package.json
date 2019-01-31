@@ -1,0 +1,21 @@
+{
+  "name": "rokket",
+  "version": "1.0.0",
+  "description": "An application to visualize when rockets are launched",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Leonard Vuniqi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
